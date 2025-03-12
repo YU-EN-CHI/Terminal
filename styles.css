@@ -7,6 +7,14 @@ body {
     padding: 0;
 }
 
+.important-warning {
+    color: #ff4444; /* 赤文字 */
+    font-weight: bold; /* 太字 */
+    font-size: 1.1em; /* 少し大きめ */
+    display: block; /* 改行して目立たせる */
+    margin-top: 10px; /* ちょっと余白を入れる */
+}
+
 /* ヘッダー */
 header {
     background-color: #1f1f1f;
