@@ -35,9 +35,9 @@ header .container {
 
 /* 各セクション */
 main section {
-    width: 75%;  /* 画面の75% */
-    max-width: 1000px; /* お好みで上限を設定 */
-    margin: 20px auto; /* 上下マージンと中央寄せ */
+    width: 75%;
+    max-width: 1000px;
+    margin: 10px auto; /* ← 上下の余白を10pxに減らす */
     padding: 20px;
     background-color: #1a1a1a;
     border-radius: 8px;
