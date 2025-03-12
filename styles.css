@@ -37,10 +37,14 @@ header .container {
 main section {
     width: 75%;
     max-width: 1000px;
-    margin: 10px auto; /* ← 上下の余白を10pxに減らす */
+    margin: 20px auto; /* ← 上下の余白を10pxに減らす */
     padding: 20px;
     background-color: #1a1a1a;
     border-radius: 8px;
+}
+
+main section h2 {
+    margin-top: 0; /* ← h2タグの上余白を0に */
 }
 
 /* セクションのタイトル */
