@@ -125,3 +125,54 @@ footer {
     margin: 0 auto;
     text-align: center;
 }
+
+/* サイドナビゲーション（目次） */
+nav.toc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #1f1f1f;
+    padding: 20px 10px;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+nav.toc h3 {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+nav.toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.toc ul li {
+    margin-bottom: 10px;
+}
+
+nav.toc ul li a {
+    color: #64b5f6;
+    text-decoration: none;
+    font-size: 0.95em;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+nav.toc ul li a:hover {
+    background-color: #2a2a2a;
+    text-decoration: underline;
+}
+
+/* メインコンテンツをナビに合わせて右にずらす */
+body {
+    margin-left: 200px;
+}
