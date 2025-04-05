@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    margin-left: 200px;
 }
 
 .important-warning {
@@ -170,9 +171,4 @@ nav.toc ul li a {
 nav.toc ul li a:hover {
     background-color: #2a2a2a;
     text-decoration: underline;
-}
-
-/* メインコンテンツをナビに合わせて右にずらす */
-body {
-    margin-left: 200px;
 }
