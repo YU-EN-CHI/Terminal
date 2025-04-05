@@ -130,6 +130,7 @@ hr {
     width: 66%;         /* 横線の幅を設定 */
     border: 1px solid #ccc; /* 線の色や太さを指定 */
     margin: 20px 0;     /* 上下の余白を設定 */
+    margin: 0 auto; /* 中央寄せ */
 }
 
 /*
